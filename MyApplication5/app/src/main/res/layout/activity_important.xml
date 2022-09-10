@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/untitled_design__2_"
+    tools:context=".important">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="256dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:text="appointments and consult"
+        android:textColor="#73B3AC"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="234dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="88dp"
+        android:text="Reports and files"
+        android:textColor="#73B3AC"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="212dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="16dp"
+        android:text="pharmacy"
+        android:textColor="#73B3AC"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="462dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
